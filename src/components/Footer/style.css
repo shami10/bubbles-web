@@ -1,0 +1,43 @@
+.footer {
+  background: #128197;
+  padding: 40px 0 0;
+  position: relative;
+}
+.contat-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.contacts-info {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.contacts-info a {
+    color: #fff;
+    margin-left: 27px;
+}
+.contat-des {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 156%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.contact form{
+    margin-bottom: 30px;
+}
+.contact form label{
+    color: #fff;
+    font-size: 17px;
+}
+.bottom-footer {
+    background: #08768B;
+    padding: 12px;
+    color: #fff;
+}
+.bottom-footer a{
+    color: #fff;
+}

@@ -1,0 +1,65 @@
+.top-header {
+    background: #08768B;
+    padding: 6px 0;
+}
+.mail a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.mail a i {
+    margin-right: 7px;
+    font-size: 16px;
+}
+.social-links {
+    text-align: right;
+}
+.social-links a {
+    color: #fff;
+    margin-left: 15px;
+}
+.social-links a i {
+    font-size: 18px;
+}
+
+/* bottom header css */
+.main-header{
+    background: #128197;
+}
+.navbar-brand img{
+    width: 90px;
+}
+li.nav-item{
+    margin-right: 20px;
+    padding: 0 10px;
+
+}
+li.nav-item .nav-link {
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+}
+li.nav-item.active .nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+}
+ul.navbar-nav {
+    margin-left: 50px;
+}
+.form-inline button {
+    background: #65B4CE;
+    border: 1px solid #65B4CE;
+    border-radius: 100px 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 138%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 9px 28px;
+}

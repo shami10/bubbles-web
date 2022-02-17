@@ -1,0 +1,31 @@
+.steps {
+  background: #128197;
+  padding: 50px;
+  text-align: center;
+  position: relative;
+}
+.step-title {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffbd59;
+}
+.step-title {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffbd59;
+  margin-bottom: 40px;
+}
+.step-des {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+.steps-item {
+  margin-bottom: 80px;
+}

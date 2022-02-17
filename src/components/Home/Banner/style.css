@@ -1,0 +1,50 @@
+.main-slider {
+  background: #128197;
+  height: 538px;
+}
+.banner-label {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.banner-des {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 156%;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.app-download {
+  margin-top: 30px;
+}
+.app-download label {
+  display: block;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.app-download a img {
+  width: 170px;
+  padding-right: 10px;
+}
+.banner-img {
+  text-align: center;
+}
+.mockup-img {
+  /* text-align: left; */
+}
+.mockup-img img {
+  width: 250px;
+}
+.carousel-indicators {
+  bottom: 0;
+  /* z-index: 1; */
+}
+.carousel {
+  height: 538px;
+}
+#canvas {
+  filter: blur(0px);
+}
