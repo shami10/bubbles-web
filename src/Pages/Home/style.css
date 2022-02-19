@@ -1,0 +1,19 @@
+@media (max-width: 1200px){
+    li.nav-item.active .nav-link {
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #FFFFFF !important;
+    }
+    li.nav-item .nav-link {
+        font-size: 13px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #FFFFFF !important;
+    }
+    li.nav-item {
+        margin-right: 10px;
+        padding: 0 10px;
+    }
+}

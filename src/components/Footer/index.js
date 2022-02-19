@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Particles from 'react-particles-js'
+// import Particles from 'react-particles-js'
 
 import Bubble from '../../assets/images/bubble-lg.png'
 import './style.css'
@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <div className="particals">
+        {/* <div className="particals">
           <Particles
             params={{
               particles: {
@@ -63,7 +63,7 @@ const Footer = () => {
               },
             }}
           />
-        </div>
+        </div> */}
         <img src={Bubble} alt="bubble" className="left-bubble" />
         <img src={Bubble} alt="bubble" className="right-bubble" />
         <div className="container">
