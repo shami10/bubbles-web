@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Particles from 'react-particles-js'
+
 import Bubble from '../../assets/images/bubble-lg.png'
 import './style.css'
 
@@ -7,6 +9,61 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
+        <div className="particals">
+          <Particles
+            params={{
+              particles: {
+                number: {
+                  value: 40,
+                  density: {
+                    enable: false,
+                  },
+                },
+                size: {
+                  value: 20,
+                  random: true,
+                  anim: {
+                    speed: 4,
+                    size_min: 0.5,
+                  },
+                },
+                line_linked: {
+                  enable: false,
+                },
+                move: {
+                  random: true,
+                  speed: 1,
+                  direction: 'top',
+                  out_mode: 'out',
+                },
+              },
+              interactivity: {
+                events: {
+                  onhover: {
+                    enable: true,
+                    mode: 'bubble',
+                  },
+                  onclick: {
+                    enable: true,
+                    mode: 'repulse',
+                  },
+                },
+                modes: {
+                  bubble: {
+                    distance: 50,
+                    duration: 2,
+                    size: 2,
+                    opacity: 0,
+                  },
+                  repulse: {
+                    distance: 200,
+                    duration: 2,
+                  },
+                },
+              },
+            }}
+          />
+        </div>
         <img src={Bubble} alt="bubble" className="left-bubble" />
         <img src={Bubble} alt="bubble" className="right-bubble" />
         <div className="container">

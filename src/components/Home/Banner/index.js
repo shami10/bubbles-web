@@ -1,4 +1,5 @@
 import React from 'react'
+import Particles from 'react-particles-js'
 
 import Apple from '../../../assets/images/appstore.png'
 import Android from '../../../assets/images/googleplay.png'
@@ -10,6 +11,61 @@ import './style.css'
 const Banner = () => {
   return (
     <>
+      <div className="particals">
+        <Particles
+          params={{
+            particles: {
+              number: {
+                value: 40,
+                density: {
+                  enable: false,
+                },
+              },
+              size: {
+                value: 20,
+                random: true,
+                anim: {
+                  speed: 4,
+                  size_min: 0.5,
+                },
+              },
+              line_linked: {
+                enable: false,
+              },
+              move: {
+                random: true,
+                speed: 1,
+                direction: 'top',
+                out_mode: 'out',
+              },
+            },
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: 'bubble',
+                },
+                onclick: {
+                  enable: true,
+                  mode: 'repulse',
+                },
+              },
+              modes: {
+                bubble: {
+                  distance: 50,
+                  duration: 2,
+                  size: 2,
+                  opacity: 0,
+                },
+                repulse: {
+                  distance: 200,
+                  duration: 2,
+                },
+              },
+            },
+          }}
+        />
+      </div>
       <div className="main-slider">
         <div className="container">
           <div

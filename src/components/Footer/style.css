@@ -41,3 +41,9 @@
 .bottom-footer a{
     color: #fff;
 }
+.footer .particals canvas{
+    height: 460px !important;
+}
+.footer .particals {
+    height: unset;
+}
