@@ -14,12 +14,14 @@
     font-size: 18px;
     color: #FFFFFF;
     margin-bottom: 25px;
+    font-family: 'Comfortaa', cursive;
 }
 .contacts-info a {
     color: #fff;
     margin-left: 27px;
 }
 .contat-des {
+    font-family: 'Comfortaa', cursive;
     font-weight: 400;
     font-size: 17px;
     line-height: 156%;
@@ -34,6 +36,7 @@
     font-size: 17px;
 }
 .bottom-footer {
+    font-family: 'Comfortaa', cursive;
     background: #08768B;
     padding: 12px;
     color: #fff;

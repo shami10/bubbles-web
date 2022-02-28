@@ -8,7 +8,7 @@ import './style.css'
 const Footer = () => {
   return (
     <>
-      <div className="footer">
+      <div className="footer" id="contact">
         {/* <div className="particals">
           <Particles
             params={{
@@ -68,7 +68,7 @@ const Footer = () => {
         <img src={Bubble} alt="bubble" className="right-bubble" />
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <div className="contact">
                 <div className="contat-title mb-5">CONTACT US</div>
                 <div className="contacts-info">
@@ -80,18 +80,18 @@ const Footer = () => {
                 <div className="contacts-info">
                   <h2>Mailing Address:</h2>
                   <p>
-                    1444 5th Avenue Apt 7T <br /> New York, NY, 10017
+                    1465 5th Avenue Apt 5c, <br /> New York, NY 10035
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <div className="contact">
                 <div className="contat-title">Feel free to contact us</div>
                 <div className="contat-des">
-                  If you are interested in finding out more about Bubbles. If
-                  you would like to join our listing and benefit from our
-                  services.
+                  If you are interested in finding out more about Bubbles.
+                  <br /> If you would like to join our listing and benefit from
+                  our services.
                 </div>
                 <form>
                   <div className="form-group">
@@ -118,10 +118,10 @@ const Footer = () => {
         <div className="bottom-footer">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6">
                 All &copy; Rights Reserved By Bubbles
               </div>
-              <div className="col-lg-6 text-right">
+              <div className="col-lg-6 col-md-6 text-right">
                 <Link to="/policy">Privacy & Terms of Services</Link>
               </div>
             </div>

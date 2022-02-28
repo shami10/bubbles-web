@@ -111,17 +111,13 @@ const Banner = () => {
                   <div className="col-lg-8">
                     <div className="banner-img">
                       <img src={BannerOne} alt="SliderImg" />
+                      <p>Free Pick up & Delivery on Bubbles</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="carousel-item">
                 <div className="row">
-                  <div className="col-lg-6">
-                    <div className="banner-img mockup-img">
-                      <img src={BannerTwo} alt="SliderImg" />
-                    </div>
-                  </div>
                   <div className="col-lg-4 justify-content-center d-flex flex-column">
                     <div className="banner-label">
                       Reliability. Trust . Value.
@@ -137,6 +133,12 @@ const Banner = () => {
                       <a href="android">
                         <img src={Android} alt="google-store" />
                       </a>
+                    </div>
+                  </div>
+                  <div className="col-lg-8">
+                    <div className="banner-img mockup-img">
+                      <img src={BannerTwo} alt="SliderImg" />
+                      <p>Free Pick up & Delivery on Bubbles</p>
                     </div>
                   </div>
                 </div>
@@ -163,6 +165,7 @@ const Banner = () => {
                   <div className="col-lg-8">
                     <div className="banner-img mockup-img">
                       <img src={BannerThree} alt="SliderImg" />
+                      <p>Free Pick up & Delivery on Bubbles</p>
                     </div>
                   </div>
                 </div>
