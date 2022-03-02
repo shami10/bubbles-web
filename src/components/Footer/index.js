@@ -119,7 +119,7 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-6 col-md-6">
-                All &copy; Rights Reserved By Bubbles
+                2022 All &copy; Rights Reserved By Bubbles
               </div>
               <div className="col-lg-6 col-md-6 text-right">
                 <Link to="/policy">Privacy & Terms of Services</Link>
