@@ -7,20 +7,12 @@ import Steps from '../../components/Home/Steps'
 import './style.css'
 
 const Home = () => {
-  return (
-    <>
-      <Banner />
-      <div id="about">
+    return <>
+        <Banner />
         <About />
-      </div>
-      <div id="services">
         <Services />
-      </div>
-      <div id="works">
         <Steps />
-      </div>
     </>
-  )
 }
 
 export default Home
