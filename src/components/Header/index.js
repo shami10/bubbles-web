@@ -60,7 +60,7 @@ const Header = () => {
               </ul>
               <form className="form-inline my-2 my-lg-0">
                 <a
-                  href="https://getbubblesapp.com/admin"
+                  href="https://www.getbubblesapp.com/admin"
                   className="btn btn-primary my-2 my-sm-0"
                   type="button"
                   target="blank"
