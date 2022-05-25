@@ -18,6 +18,48 @@ const Header = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
+
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav mr-auto">
+                <li className="nav-item">
+                  <Link className="nav-link" to="/">
+                    Home
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#about">
+                    Who We Are
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#services">
+                    What We Do
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#works">
+                    How it works
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#contact">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+              <form className="form-inline my-2 my-lg-0">
+                <a
+                  href="https://www.getbubblesapp.com/admin"
+                  className="btn btn-primary my-2 my-sm-0"
+                  type="button"
+                  target="blank"
+                >
+                  Admin Login
+                </a>
+              </form>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
@@ -41,6 +83,7 @@ const Header = () => {
                         </form>
                     </div>
                 </nav>
+
             </div>
         </div>
     </>

@@ -1,0 +1,170 @@
+
+@media (max-width: 1200px) {
+  li.nav-item.active .nav-link {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #ffffff !important;
+  }
+  li.nav-item .nav-link {
+    font-size: 13px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #ffffff !important;
+  }
+  li.nav-item {
+    margin-right: 10px;
+    padding: 0 10px;
+  }
+}
+@media (max-width: 800px) {
+  .step-img img {
+    width: 100%;
+  }
+  .services-sec {
+    background: #128197;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  .about-sec {
+    background: #08768b;
+    padding: 40px 10px;
+    text-align: center;
+    position: relative;
+  }
+  .about-des {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 156%;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 0px;
+  }
+  .footer .left-bubble {
+    display: none;
+  }
+  .footer .right-bubble {
+    position: absolute;
+    right: 10px;
+    top: -50px;
+  }
+  .steps .left-bubble {
+    display: none;
+  }
+  .steps .right-bubble {
+    display: none;
+  }
+  .main-slider {
+    background: #128197;
+    height: unset;
+    padding: 20px 0px;
+  }
+  .carousel {
+    height: unset;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+  .banner-img.mockup-img img {
+    width: 50%;
+  }
+  .app-download a img {
+    width: 145px;
+    padding-right: 10px;
+  }
+  .left-bubble {
+    position: absolute;
+    left: 8px;
+    top: -26px;
+    width: 100px;
+  }
+  .right-bubble {
+    display: none;
+  }
+  .middle-b {
+    position: absolute;
+    left: unset;
+    right: 8px !important;
+    top: -41px;
+  }
+  .particals canvas {
+    height: 680px !important;
+  }
+  .reverse .row {
+    flex-flow: column-reverse;
+  }
+  .banner-label {
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+  .banner-des {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 156%;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+  .carousel-indicators {
+    bottom: -31px;
+  }
+  .app-download {
+    margin-top: 30px;
+  }
+  .banner-img p {
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .step-title {
+    font-weight: 800;
+    font-size: 57px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffbd59;
+    margin-bottom: 5px;
+  }
+  .contat-title {
+    font-size: 24px;
+    margin-bottom: 10px !important;
+  }
+  .contacts-info a {
+    color: #fff;
+    margin-left: 19px;
+  }
+  .contacts-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-family: 'Comfortaa', cursive;
+  }
+  .contacts-info h2 {
+    font-size: 24px;
+  }
+  .bottom-footer .text-right {
+    text-align: left !important;
+  }
+  .contat-des {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  .navbar-brand img {
+    width: 75px;
+    margin-left: 31px;
+  }
+  .padding {
+    padding-left: 0px;
+  }
+}
+

@@ -10,40 +10,91 @@
   color: #ffffff;
 }
 .contacts-info {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Comfortaa', cursive;
+  margin-bottom: 25px;
+
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
     margin-bottom: 25px;
 }
 .contacts-info a {
-    color: #fff;
-    margin-left: 27px;
+  color: #fff;
+  font-family: 'Comfortaa', cursive;
+  margin-left: 27px;
 }
 .contat-des {
+
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 156%;
+  color: #ffffff;
+  font-family: 'Comfortaa', cursive;
+
+  margin-bottom: 20px;
+
     font-weight: 400;
     font-size: 17px;
     line-height: 156%;
     color: #FFFFFF;
     margin-bottom: 20px;
+
 }
-.contact form{
-    margin-bottom: 30px;
+.contact form {
+  margin-bottom: 30px;
 }
-.contact form label{
-    color: #fff;
-    font-size: 17px;
+.contact form label {
+  color: #fff;
+  font-size: 17px;
 }
 .bottom-footer {
+
+  background: #08768b;
+  padding: 12px;
+  color: #fff;
+
     background: #08768B;
     padding: 12px;
     color: #fff;
+
 }
-.bottom-footer a{
-    color: #fff;
+.bottom-footer a {
+  color: #fff;
 }
-.footer .particals canvas{
-    height: 460px !important;
+.footer .particals canvas {
+  height: 460px !important;
 }
 .footer .particals {
-    height: unset;
+  height: unset;
+}
+.contact-btn {
+  background: #65b4ce;
+  border: 1px solid #65b4ce;
+  border-radius: 100px 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Comfortaa', cursive;
+  line-height: 138%;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 9px 28px;
+}
+.name-label {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Comfortaa', cursive;
+}
+.contact-head-mail {
+  font-family: 'Open Sans', sans-serif;
+}
+.contact-mail {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Comfortaa', cursive;
 }
