@@ -1,7 +1,7 @@
 .row {
   margin: 0;
-  margin-right: 16px;
-  margin-left: 16px;
+  margin-right: 10px;
+  margin-left: 32px;
   padding: 0;
 }
 .top-header {
@@ -10,13 +10,13 @@
 }
 .mail a {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 140%;
+  font-size: 12px;
+  line-height: 100%;
   color: #ffffff;
 }
 .mail a i {
   margin-right: 7px;
-  font-size: 16px;
+  font-size: 12px;
 }
 .social-links {
   text-align: right;

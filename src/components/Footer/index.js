@@ -128,9 +128,8 @@ const Footer = () => {
               <div className='contact'>
                 <div className='contat-title mb-5'>FEEL FREE TO CONTACT US</div>
                 <div className='contacts-info'>
-                  If you are interested in finding out more about Bubbles,
-                  <br />
-                  join our listing and benefit from our services.
+                  If you are interested in finding out more about Bubbles, join
+                  our listing and benefit from our <br /> services.
                 </div>
                 <form ref={form}>
                   <div className='form-group'>
