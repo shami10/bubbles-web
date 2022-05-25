@@ -12,7 +12,6 @@
     margin-bottom: 20px;
 }
 .about-des {
-    font-family: 'Comfortaa', cursive;
     font-weight: 400;
     font-size: 19px;
     line-height: 156%;
@@ -29,4 +28,16 @@
     position: absolute;
     right: 20px;
     top: 50px;
+}
+.contact-btn{
+    background: #65B4CE;
+    border: 1px solid #65B4CE;
+    border-radius: 100px 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 138%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 9px 28px;
 }
